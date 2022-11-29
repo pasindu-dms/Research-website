@@ -1,0 +1,1267 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="title" content="Bespoke Tailor">
+    <meta name="description"
+        content="K8Advisor is a user-friendly, all-in-one tool for managing, overseeing, and optimizing Kubernetes deployments">
+    <meta name="keywords" content="Kubernetes,k8, microservices, deployment, performance, smart">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- favicon -->
+
+
+    <link rel="apple-touch-icon" sizes="57x57" href="favicons/3603-favicon-apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicons/2921-favicon-apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicons/2932-favicon-apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicons/4002-favicon-apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicons/6366-favicon-apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicons/5235-favicon-apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicons/6087-favicon-apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicons/248-favicon-apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/3254-favicon-apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicons/1850-favicon-android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/4843-favicon-favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicons/3584-favicon-favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/8008-favicon-favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- favicon -->
+
+
+    <title>Bespoke Tailor</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <script src="js/7e5658b08b.js" crossorigin="anonymous"></script>
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/CSS-HomeStyles.css">
+    <link rel="stylesheet" href="css/CSS-ParallaxCarousel.css">
+    <!-- Custom Styles -->
+    <!-- Animate On  Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Animate On  Scroll -->
+    <!-- Jquery -->
+    <script src="js/2.1.3-jquery.min.js"></script>
+    <script src="js/4787-JS-bulmaScripsts.js"></script>
+    <!-- Toaster -->
+    <script src="js/latest-toastr.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <script src="https://kit.fontawesome.com/86ed18f74c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <script src="js/dist-aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- Contact US -->
+    <div class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content mx-4">
+            <main class="container content notification is-warning">
+                <h1 class="title has-text-centered">Your Feedback is Important to US</h1>
+                <div class="row">
+                    <div class="col-6">
+                        <h5>Email Address</h5>
+                        <a href="mailto:Pasindudms@gmail.com" class="btn btn-secondary btn-sm">Email to Us</a>
+                        <p></p>
+                    </div>
+                    <div class="col-6 mt-3">
+                        <h5>Facebook</h5>
+                        <a href="https://www.facebook.com/pasindu.situmina.9"
+                            class="btn btn-secondary btn-sm">Our Facebook</a>
+                        <p></p>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <button class="modal-close"></button>
+    </div>
+    <!-- Nav bar -->
+    <nav class="navbar is-fixed-top is-transparent">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+                <img src="favicons/logo.jpeg" style="max-height: 5rem;">
+            </a>
+            <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div id="navbarExampleTransparentExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="#home">
+                    Home
+                </a>
+                <a class="navbar-item" href="#intro">
+                    Introduction
+                </a>
+                <a class="navbar-item" href="#domain">
+                    Domain
+                </a>
+                <a class="navbar-item" href="#milestones">
+                    Milestones
+                </a>
+                <a class="navbar-item" href="#features">
+                    Features
+                </a>
+                <a class="navbar-item" href="#documents">
+                    Documents
+                </a>
+                <a class="navbar-item" href="#tools">
+                    Tools &amp; Technologies
+                </a>
+                <a class="navbar-item" href="#team">
+                    Team
+                </a>
+            </div>
+            <div class="navbar-end">
+                <a href="javascript:;.html" id="showModal" class="navbar-item">
+                    Contact Us
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- <div class="parallax-home">
+         </div> -->
+    <section id="home">
+        <div id="firstPage" class="parallax">
+            <div class="parallax-container-home" style="min-height:100vh;">
+                <section class="hero is-fullheight">
+                    <div class="hero-body">
+                        <div class="container">
+                            <h1 data-aos="fade-down" class="title
+                          
+                           center" style="color: white;">Bespoke Tailor </h1>
+                            <br>
+                            <br>
+                            <h1 data-aos="fade-up" class="title
+                           
+                           has-text-centered" style="line-height:200%; color: white;">Virtual Platform For Tailoring. </h1>
+                            <br>
+                            
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="parallax feature-background">
+        </div>
+    </section>
+    <!-- Home -->
+    <!-- Introduction -->
+    <section id="intro" class="hero is-fullheight
+         backgroud-intro">
+        <div class="hero-body">
+            <div class="container">
+                <h1 data-aos="fade-down" class="title
+                  has-text-white
+                  center">What is Bespoke Tailor </h1>
+                <br>
+                <!-- <h2 data-aos="fade-up" class="subtitle center" style="color:#303030;font-weight:bold;"></h2> -->
+                <br>
+                <h2 data-aos="fade-up" class="subtitle
+                  has-text-white
+                  has-text-centered" style="line-height:200%;">
+                  BEspoke addresses the online fitting store to Online business enjoys significant benefits contrasted with customary shopping (for example time, decision, cost) yet offers just an incomplete perspective on the shopping climate. So Customers can give their dress type with command and calculate the time duration and cost By themselves
+                </h2>
+            </div>
+        </div>
+    </section>
+    <section id="domain" class="domain-background">
+        <br><br>
+        <div class="container has-text-centered">
+            <h1 class="title has-text-white">
+                Our Domain
+            </h1>
+        </div>
+        <div data-aos="fade-up" class="tabs tabs is-centered
+            is-medium">
+            <div class="container">
+                <ul>
+                    <li class="tab is-active" onclick="openTab(event,'Background')"><a href="#Background"><span
+                                class="icon is-small"><i class="fas
+                     fa-image" aria-hidden="true"></i></span>
+                            <span>Background</span></a>
+                    </li>
+                    <li class="tab" onclick="openTab(event,'ResearchGap')"><a href="#ResearchGap"><span
+                                class="icon is-small"><i class="fas
+                     fa-image" aria-hidden="true"></i></span>
+                            <span>Research Gap</span></a>
+                    </li>
+                    <li class="tab" onclick="openTab(event,'ResearchProblems')"><a href="#ResearchProblems"><span
+                                class="icon is-small"><i class="fas
+                     fa-image" aria-hidden="true"></i></span>
+                            <span>Research Problems</span></a>
+                    </li>
+                    <li class="tab" onclick="openTab(event,'ResearchObjectives')"><a href="#ResearchObjectives"><span
+                                class="icon is-small"><i class="fas
+                     fa-image" aria-hidden="true"></i></span>
+                            <span>Research Objectives</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div data-aos="fade-down" class="container section">
+            <div id="Background" class="content-tab">
+                <div class="container">
+                    <section class="hero is-primary
+                  tab-content">
+                        <div class="hero-body">
+                            <h1 class="title has-text-centered">Background</h1>
+                            <div class="container">
+                                <div class="notification
+                           is-light">
+                                    <p class="
+                              has-text-centered
+                              has-text-black">Clients will actually want to configuration dresses for all intents and purposes with the guide of this research and see the completed items. Body aspects that are assembled from a photograph of the client will at last decide the dress' expense. Online business enjoys significant benefits contrasted with customary shopping (for example time, decision, cost) yet offers just an incomplete perspective on the shopping climate. For instance, the absence of actual fear is a significant impediment of mobile application based buying to establish a shopping climate near the real world, a few organizations currently propose Internet FITTING STORE on their sites. This examination means to feature the impact of customer exploratory way of behaving and buy aim in both on the web and disconnected settings. Consequences of two investigations showed that the presence of such an instrument essentially increments explicit interest in the item, expectation to disparage (on the mobile and disconnected) and goal to buy (on the mobile and disconnected).
+                                    </p>
+                                </div>
+                                <div class="notification">
+                                    <br>
+                                    <h2 class="
+                              has-text-centered
+                              has-text-black">The last option impact is interceded through right off the bat perceptual explicit interest in the item and afterward the goal to belittle. The program is being created utilizing advancements including consume days gauging for creation, picture handling and Chatbot framework.
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div id="ResearchGap" class="content-tab" style="display:none">
+                <div class="container">
+                    <section class="hero is-primary tab-content
+                  content-back">
+                        <div class="hero-body">
+                            <h1 class="title has-text-centered">Research Gap
+                            </h1>
+                            <div class="container center">
+                                <div class="notification">
+                                    <h1 class="has-text-black
+                              has-text-centered">To identify the human language with web base training Appreciation through calculate the time and cost to produce a garment Finding the amount of material Self service tailoring requirement.</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div id="ResearchObjectives" class="content-tab" style="display:none">
+                <div class="container">
+                    <section class="hero is-primary
+                  content-back">
+                        <div class="hero-body">
+                            <h1 class="title has-text-centered">Research Objectives
+                            </h1>
+                            <div class="container center">
+                                <div style="margin-left: 14rem;">
+                                    <div class="columns">
+                                        <div class="column
+                                 is-one-quarter">
+                                            <div data-aos="flip-right" data-aos-duration="1000" class="notification
+                                    is-white
+                                    has-text-centered" style="height:
+                                    100%">
+                                                <p class="has-text-centered">to identify human language and stored the customer entered details and check validation in data (email)
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="column
+                                 is-one-quarter">
+                                            <div data-aos="flip-left" data-aos-duration="1000" class="notification
+                                    is-white
+                                    has-text-centered" style="height:
+                                    100%">
+                                                <p class="has-text-centered">to calculate the time duration of dress design process from compare the customer entered measurement with stored data set.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="column
+                                 is-one-quarter">
+                                            <div data-aos="flip-right" data-aos-duration="1000" class="notification
+                                    is-white
+                                    has-text-centered" style="height:
+                                    100%">
+                                                <p class="has-text-centered">
+                                                    to Estimating the cost for the dress.The purpose of this component is to evaluate the cost estimation for creating the dress using the materials according to the body measurements.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div id="ResearchProblems" class="content-tab" style="display:none">
+                <div class="container">
+                    <section class="hero is-primary
+                  content-back">
+                        <div class="hero-body">
+                            <h1 class="title has-text-centered">Research Problems
+                            </h1>
+                            <div class="container">
+                                <div style="margin-left: 14rem;">
+                                    <div class="columns">
+                                        <div class="column
+                                 is-one-quarter">
+                                            <div data-aos="flip-right" data-aos-duration="1000" class="notification
+                                    is-light
+                                    has-text-centered" style="height:
+                                    100%;">
+                                                <br>
+                                                <p class="has-text-centered">Spelling mistakes is the main problem in voice commands . The diversity in pitch and loudness is a further consideration . Customers may try on clothing virtually , without having to put it on or even touch it . They may view a live picture of themselves in any article using a special software . The worldwide pandemic of 2020 has compelled many industries to go online . The intensity of the pandemic influenced the apparel industry as well . Users will be able to virtually try on ready - made clothing . But they don't have options like tailoring the clothing or trying on a brand - new outfit .
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="column
+                                 is-one-quarter">
+                                            <div data-aos="flip-left" data-aos-duration="1000" class="notification
+                                    is-light
+                                    has-text-centered" style="height:
+                                    100%;">
+                                                <br>
+                                                <p class="has-text-centered">It is a big problem for customers that there is no way to know how much time it takes to create one dress by comparing it with the size, color and type of clothes. It is a great comfort for users to have a tool that can predict the day according to the data of the customers.  
+                                                    When forecasts perform poorly or other aspects require human intervention, we flag these potential problems in order of priority for a human analyst.  The analyst is then expected to test the forecast and adjust the model based on this feedback.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="column
+                                 is-one-quarter">
+                                            <div data-aos="flip-right" data-aos-duration="1000" class="notification
+                                    is-light
+                                    has-text-centered" style="height:
+                                    100%;">
+                                                <br>
+                                                <p class="has-text-centered">
+                                                    Estimating the cost for the dress.The purpose of this component is to evaluate the cost estimation for creating the dress using the materials according to the body measurements.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <section id="milestones" class="section
+         milestone-background">
+                <h1 class="title has-text-centered has-text-white">Milestones</h1>
+                <div class="container">
+                    <div class="timeline">
+                        <div>
+                            <div class="containerX left">
+                                <div data-aos="fade-down" class="box">
+                                    <h2 class="title is-5
+                           has-text-centered">Project Topic Assessment
+                                    </h2>
+                                    <h2 class="title is-6
+                           has-text-centered">28 December 2021
+                                    </h2>
+                                    <p>Initial topic assessment document of the proposed research was submitted for
+                                        evaluation. The submitted document included a brief overview on key aspects of
+                                        the proposed research along with the research problem, research objectives,
+                                        overall solution as well as member task breakdown.
+                                    </p>
+                                    <ul>
+                                        <li class="has-text-right"><strong>No
+                                                marks allocated
+                                            </strong>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="containerX right">
+                                <div data-aos="fade-up" class="box">
+                                    <h2 class="title is-5
+                           has-text-centered">Project Charter Submission
+                                    </h2>
+                                    <h2 class="title is-6
+                           has-text-centered">12 January 2022
+                                    </h2>
+                                    <p>Once the topic was finalized, the project charter document was submitted for
+                                        evaluation. This document also included a brief overview on key aspects of the
+                                        proposed research along with the research problem, research objectives,
+                                        overall solution as well as member task breakdown of the proposed research.
+                                    </p>
+                                    <ul>
+                                        <li class="has-text-right"><strong>No
+                                                marks allocated
+                                            </strong>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="containerX left">
+                                <div data-aos="fade-down" class="box">
+                                    <h2 class="title is-5
+                           has-text-centered">Project Proposal Presentation
+                                    </h2>
+                                    <h2 class="title is-6
+                           has-text-centered">2 February 2022</h2>
+                                    <p>Presented to a panel of judges in order to provide an overview of the proposed
+                                        research.
+                                    </p>
+                                    <ul>
+                                        <li class="has-text-right"><strong>Marks
+                                                Allocation - 6%</strong>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="containerX right">
+                                <div data-aos="fade-up" class="box">
+                                    <h2 class="title is-5
+                           has-text-centered">Project Proposal Report
+                                    </h2>
+                                    <h2 class="title is-6
+                           has-text-centered">11 February 2022</h2>
+                                    <p>The submission of a report which provides an in-depth analysis pertaining to key
+                                        aspects of the proposed research along with the research problem, objectives, as
+                                        well as the overall proposed solution.
+                                    </p>
+                                    <ul>
+                                        <li class="has-text-right"><strong>Marks
+                                                Allocation - 6%</strong>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="containerX left">
+                                <div data-aos="fade-down" class="box">
+                                    <h2 class="title is-5
+                           has-text-centered">Project Status Document 1</h2>
+                                    <h2 class="title is-6
+                           has-text-centered">13 May 2022
+                                    </h2>
+                                    <p>The submission of a document that provides an overview of key tasks conducted by
+                                        members during the implementation phase of the research.
+                                    </p>
+                                    <ul>
+                                        <li class="has-text-right"><strong>Marks
+                                                Allocation - 1%</strong>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="containerX right">
+                                <div data-aos="fade-up" class="box">
+                                    <h2 class="title is-5
+                           has-text-centered">Progress Presentation 1
+                                    </h2>
+                                    <h2 class="title is-6
+                           has-text-centered">12 May 2022
+                                    </h2>
+                                    <p>Evaluation of 50% completion of the proposed solution by a panel of judges.
+                                    </p>
+                                    <ul>
+                                        <li class="has-text-right"><strong>Marks
+                                                Allocation - 15%</strong>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="containerX left">
+                                <div data-aos="fade-down" class="box">
+                                    <h2 class="title is-5
+                           has-text-centered">Research Paper submission
+                                    </h2>
+                                    <h2 class="title is-6
+                           has-text-centered">30 June 2022
+                                    </h2>
+                                    <p>Draft submission of the research paper submitted to the supervisor for
+                                        evaluation.
+                                    </p>
+                                    <ul>
+                                        <li class="has-text-right"><strong>Marks
+                                                Allocation - 10%</strong>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="containerX right">
+                                <div data-aos="fade-up" class="box">
+                                    <h2 class="title is-5
+                           has-text-centered">Progress Presentation 02
+                                    </h2>
+                                    <h2 class="title is-6
+                           has-text-centered">11 October 2022</h2>
+                                    <p>Submission of the group and individual thesis documents for evaluation.
+                                    </p>
+                                    <ul>
+                                        <li class="has-text-right"><strong>Marks
+                                                Allocation - 10%</strong>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="containerX left">
+                                <div data-aos="fade-up" class="box">
+                                    <h2 class="title is-5
+                           has-text-centered">Final Report
+                                    </h2>
+                                    <h2 class="title is-6
+                           has-text-centered">7 November 2022</h2>
+                                    <p>Submission of the group and individual thesis documents for evaluation.
+                                    </p>
+                                    <ul>
+                                        <li class="has-text-right"><strong>Marks
+                                                Allocation - 19%</strong>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="containerX right">
+                                <div data-aos="fade-down" class="box">
+                                    <h2 class="title is-5
+                           has-text-centered">Website Assessment
+                                    </h2>
+                                    <h2 class="title is-6
+                           has-text-centered">14 November 2022</h2>
+                                    <p>Evaluation of 90% completion of the proposed solution by a panel of judges.
+                                    </p>
+                                    <ul>
+                                        <li class="has-text-right"><strong>Marks
+                                                Allocation - 2%</strong>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="containerX left">
+                                <div data-aos="fade-up" class="box">
+                                    <h2 class="title is-5
+                           has-text-centered">Project Status Document 02 & Research Logbook
+                                    </h2>
+                                    <h2 class="title is-6
+                           has-text-centered">14 November 2022
+                                    </h2>
+                                    <p>Submission of research website for evaluation.
+                                    </p>
+                                    <ul>
+                                        <li class="has-text-right"><strong>Marks
+                                                Allocation - 3%</strong>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="containerX right">
+                                <div data-aos="fade-up" class="box">
+                                    <h2 class="title is-5
+                           has-text-centered">Final Presentation & Viva
+                                    </h2>
+                                    <h2 class="title is-6
+                           has-text-centered">15 November 2022
+                                    </h2>
+                                    <p>Final evaluation of the completed product.
+                                    </p>
+                                    <ul>
+                                        <li class="has-text-right"><strong>Marks
+                                                Allocation - 20%</strong>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+           
+            <!-- Document -->
+            <section id="documents" class="section">
+                <div class="container">
+                    <h1 class="title has-text-centered
+               has-text-primary">Documents</h1>
+                    <div class="has-text-centered" style="margin-top: 100px;
+               margin-bottom: 100px;">
+                        <div class="notification is-primary">
+                            <p class="subtitle has-text-centered">
+                                Project Proposal
+                            </p>
+                        </div>
+                        <br>
+                        <div class="columns is-multiline">
+                            <div class="column
+                     is-one-quarter-desktop">
+                                <div data-aos="zoom-in" class="card">
+                                    <p class="has-text-centered">Proposal Presentation
+                                    </p>
+                                    <div class="card-image
+                           has-text-centered"><span style="font-size: 5rem;
+                           color:
+                           rgb(193, 94, 93);"><i class="fa
+                           fa-file-pdf" aria-hidden="true"></i></span></div>
+                                    <footer class="card-footer"><a
+                                            onclick="window.open('https://docs.google.com/document/d/18g12AP2kOIIqz3G3OUkTw8lPJoB3eZiI/edit?usp=share_link&ouid=101497122337476251127&rtpof=true&sd=true')"
+                                            rel="noopener
+                           noreferrer" href="#" style="width: 100%;"><button class="button
+                           is-fullwidth
+                           is-primary
+                           is-outlined"><span>View</span></button></a>
+                                    </footer>
+                                </div>
+                            </div>
+                            <div class="column
+                     is-one-quarter-desktop">
+                                <div data-aos="zoom-in" class="card">
+                                    <p class="has-text-centered">Proposal Document 2</p>
+                                    <div class="card-image
+                           has-text-centered"><span style="font-size: 5rem;
+                           color:
+                           rgb(193, 94, 93);"><i class="fa
+                           fa-file-pdf" aria-hidden="true"></i></span></div>
+                                    <footer class="card-footer"><a onclick="window.open('https://docs.google.com/document/d/14oC2HuIYYjkIzZSkgUabY03JWY_zEK6E/edit?usp=share_link&ouid=101497122337476251127&rtpof=true&sd=true')" rel="noopener
+                           noreferrer" href="#" style="width: 100%;"><button class="button
+                           is-fullwidth
+                           is-primary
+                           is-outlined"><span>View</span></button></a>
+                                    </footer>
+                                </div>
+                            </div>
+                            <div class="column
+                     is-one-quarter-desktop">
+                                <div data-aos="zoom-in" class="card">
+                                    <p class="has-text-centered">Proposal Document 3</p>
+                                    <div class="card-image
+                           has-text-centered"><span style="font-size: 5rem;
+                           color:
+                           rgb(193, 94, 93);"><i class="fa
+                           fa-file-pdf" aria-hidden="true"></i></span></div>
+                                    <footer class="card-footer"><a onclick="window.open('https://docs.google.com/document/d/1kFpPnJMGDCml0XSM0yIQOOgLEDH5RUQF/edit?usp=share_link&ouid=101497122337476251127&rtpof=true&sd=true')" rel="noopener
+                           noreferrer" href="#"
+                                            style="width: 100%;"><button class="button
+                           is-fullwidth
+                           is-primary
+                           is-outlined"><span>View</span></button></a>
+                                    </footer>
+                                </div>
+                            </div>
+                            
+                    </div>
+                    <div class="has-text-centered" style="margin-top: 100px;
+               margin-bottom: 100px;">
+                        <div class="notification is-primary">
+                            <p class="subtitle has-text-centered">
+                                Status Document 01
+                            </p>
+                        </div>
+                        <br>
+                        <div class="columns is-multiline">
+                            <div class="column
+                     is-one-quarter-desktop">
+                                <div data-aos="zoom-in" class="card">
+                                    <p class="has-text-centered">Status Document 1</p>
+                                    <div class="card-image
+                           has-text-centered"><span style="font-size: 5rem;
+                           color:
+                           rgb(193, 94, 93);"><i class="fa
+                           fa-file-pdf" aria-hidden="true"></i></span></div>
+                                    <footer class="card-footer"><a
+                                            onclick="window.open('https://drive.google.com/file/d/1lCVc28wWOaIzbvyNeJh9Se-A60i1mQ1v/view?usp=share_link')"
+                                            rel="noopener
+                           noreferrer" href="#" style="width: 100%;"><button class="button
+                           is-fullwidth
+                           is-primary
+                           is-outlined"><span>View</span></button></a>
+                                    </footer>
+                                </div>
+                            </div>
+                            <div class="column
+                     is-one-quarter-desktop">
+                                <div data-aos="zoom-in" class="card">
+                                    <p class="has-text-centered">Status Document 2</p>
+                                    <div class="card-image
+                           has-text-centered"><span style="font-size: 5rem;
+                           color:
+                           rgb(193, 94, 93);"><i class="fa
+                           fa-file-pdf" aria-hidden="true"></i></span></div>
+                                    <footer class="card-footer"><a
+                                            onclick="window.open('https://drive.google.com/file/d/1l15htbQaHkNm8EblMjujworqt3kcZ3VT/view?usp=share_link')"
+                                            rel="noopener
+                           noreferrer" href="#" style="width: 100%;"><button class="button
+                           is-fullwidth
+                           is-primary
+                           is-outlined"><span>View</span></button></a>
+                                    </footer>
+                                </div>
+                            </div>
+                            <div class="column
+                     is-one-quarter-desktop">
+                                <div data-aos="zoom-in" class="card">
+                                    <p class="has-text-centered">Status Document 3</p>
+                                    <div class="card-image
+                           has-text-centered"><span style="font-size: 5rem;
+                           color:
+                           rgb(193, 94, 93);"><i class="fa
+                           fa-file-pdf" aria-hidden="true"></i></span></div>
+                                    <footer class="card-footer"><a
+                                            onclick="window.open('https://drive.google.com/file/d/1ixiXkl_frT-ytJTAB9AeFntPFwamgg4e/view?usp=share_link')"
+                                            rel="noopener
+                           noreferrer" href="#" style="width: 100%;"><button class="button
+                           is-fullwidth
+                           is-primary
+                           is-outlined"><span>View</span></button></a>
+                                    </footer>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="has-text-centered" style="margin-top: 100px;
+                    margin-bottom: 100px;">
+                        <div class="notification is-primary">
+                            <p class="subtitle has-text-centered">
+                                Status Document 02
+                            </p>
+                        </div>
+                        <br>
+                        <div class="columns is-multiline">
+                            <div class="column
+                          is-one-quarter-desktop">
+                                <div data-aos="zoom-in" class="card">
+                                    <p class="has-text-centered">Status Document</p>
+                                    <div class="card-image
+                                has-text-centered"><span style="font-size: 5rem;
+                                color:
+                                rgb(193, 94, 93);"><i class="fa
+                                fa-file-pdf" aria-hidden="true"></i></span></div>
+                                    <footer class="card-footer"><a
+                                            onclick="window.open('https://drive.google.com/file/d/1tW-azdFf6QHpNKRffukQJUwgqqplZ-vk/view?usp=share_link')"
+                                            rel="noopener
+                                noreferrer" href="#" style="width: 100%;"><button class="button
+                                is-fullwidth
+                                is-primary
+                                is-outlined"><span class="icon"><i class="fas
+                                fa-download" aria-hidden="true"></i></span><span>View</span></button></a>
+                                    </footer>
+                                </div>
+                            </div>
+                            <div class="column
+                          is-one-quarter-desktop">
+                                <div data-aos="zoom-in" class="card">
+                                    <p class="has-text-centered">Status Document</p>
+                                    <div class="card-image
+                                has-text-centered"><span style="font-size: 5rem;
+                                color:
+                                rgb(193, 94, 93);"><i class="fa
+                                fa-file-pdf" aria-hidden="true"></i></span></div>
+                                    <footer class="card-footer"><a
+                                            onclick="window.open('https://drive.google.com/file/d/1xmjNfRLEdBq_AY6PR0vWzX_LvVbkttqU/view?usp=share_link')"
+                                            rel="noopener
+                                noreferrer" href="#" style="width: 100%;"><button class="button
+                                is-fullwidth
+                                is-primary
+                                is-outlined"><span class="icon"><i class="fas
+                                fa-download" aria-hidden="true"></i></span><span>View</span></button></a>
+                                    </footer>
+                                </div>
+                            </div>
+                            <div class="column
+                          is-one-quarter-desktop">
+                                <div data-aos="zoom-in" class="card">
+                                    <p class="has-text-centered">Status Document</p>
+                                    <div class="card-image
+                                has-text-centered"><span style="font-size: 5rem;
+                                color:
+                                rgb(193, 94, 93);"><i class="fa
+                                fa-file-pdf" aria-hidden="true"></i></span></div>
+                                    <footer class="card-footer"><a
+                                            onclick="window.open('https://drive.google.com/file/d/1HVhXhds2FMhTi6s0NR2Qa9yO2SPckATW/view?usp=share_link')"
+                                            rel="noopener
+                                noreferrer" href="#" style="width: 100%;"><button class="button
+                                is-fullwidth
+                                is-primary
+                                is-outlined"><span class="icon"><i class="fas
+                                fa-download" aria-hidden="true"></i></span><span>View</span></button></a>
+                                    </footer>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="has-text-centered" style="margin-top: 100px;
+               margin-bottom: 100px;">
+                        <div class="notification is-primary">
+                            <p class="subtitle has-text-centered">
+                                Progress Presentation 01
+                            </p>
+                        </div>
+                        <br>
+                        <div class="columns is-multiline">
+                            <div class="column
+                     is-one-quarter-desktop">
+                                <div data-aos="zoom-in" class="card">
+                                    <p class="has-text-centered">Progress Presentation
+                                    </p>
+                                    <div class="card-image
+                           has-text-centered"><span style="font-size: 5rem;
+                           color:
+                           rgb(193, 94, 93);"><i class="fa
+                           fa-file-pdf" aria-hidden="true"></i></span></div>
+                                    <footer class="card-footer"><a
+                                            onclick="window.open('https://docs.google.com/presentation/d/1tsHb9yxu-5WoeBZAb4xO7T2RdPoY5ve4/edit?usp=share_link&ouid=101497122337476251127&rtpof=true&sd=true')"
+                                            rel="noopener
+                           noreferrer" href="" style="width: 100%;"><button class="button
+                           is-fullwidth
+                           is-primary
+                           is-outlined"><span>View</span></button></a>
+                                    </footer>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="has-text-centered" style="margin-top: 100px;
+               margin-bottom: 100px;">
+                        <div class="notification is-primary">
+                            <p class="subtitle has-text-centered">
+                                Research Paper
+                            </p>
+                        </div>
+                        <br>
+                        <div class="columns is-multiline">
+                            <div class="column
+                     is-one-quarter-desktop">
+                                <div data-aos="zoom-in" class="card">
+                                    <p class="has-text-centered">Research Paper
+                                    </p>
+                                    <div class="card-image
+                           has-text-centered"><span style="font-size: 5rem;
+                           color:
+                           rgb(193, 94, 93);"><i class="fa
+                           fa-file-pdf" aria-hidden="true"></i></span></div>
+                                    <footer class="card-footer"><a
+                                            onclick="window.open('https://docs.google.com/document/d/11xTGpz4dTI882W13JLp6_nzoD_eiVTQO/edit?usp=share_link&ouid=101497122337476251127&rtpof=true&sd=true')"
+                                            rel="noopener
+                           noreferrer" href="" style="width:
+                           100%;"><button class="button
+                           is-fullwidth
+                           is-primary
+                           is-outlined"><span>View</span></button></a>
+                                    </footer>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="has-text-centered" style="margin-top: 100px;
+               margin-bottom: 100px;">
+                        <div class="notification is-primary">
+                            <p class="subtitle has-text-centered">
+                                Progress Presentation 02
+                            </p>
+                        </div>
+                        <br>
+                        <div class="columns is-multiline">
+                            <div class="column
+                     is-one-quarter-desktop">
+                                <div data-aos="zoom-in" class="card">
+                                    <p class="has-text-centered">Progress Presentation 02</p>
+                                    <div class="card-image
+                           has-text-centered"><span style="font-size: 5rem;
+                           color:
+                          rgb(193, 94, 93);"><i class="fa
+                           fa-file-pdf" aria-hidden="true"></i></span></div>
+                                    <footer class="card-footer"><a
+                                        onclick="window.open('https://docs.google.com/presentation/d/13mGAZglmomfLESjL9JN1v4efX6DAsvlY/edit?usp=share_link&ouid=101497122337476251127&rtpof=true&sd=true')"
+                                            rel="noopener
+                           noreferrer" href="#" style="width: 100%;"><button class="button
+                           is-fullwidth
+                           is-primary
+                           is-outlined"><span>View</span></button></a>
+                                    </footer>
+                                </div>
+                            </div>
+                            <div class="column
+                     is-one-quarter-desktop">
+                                <div data-aos="zoom-in" class="card">
+                                    <p class="has-text-centered">Poster</p>
+                                    <div class="card-image
+                           has-text-centered"><span style="font-size: 5rem;
+                           color:
+                           rgb(193, 94, 93);"><i class="fa
+                           fa-file-pdf" aria-hidden="true"></i></span></div>
+                                    <footer class="card-footer"><a
+                                            onclick="window.open('#')"
+                                            rel="noopener
+                           noreferrer" href="" style="width: 100%;"><button class="button
+                           is-fullwidth
+                           is-primary
+                           is-outlined"><span>View</span></button></a>
+                                    </footer>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="has-text-centered" style="margin-top: 100px;
+               margin-bottom: 100px;">
+                        <div class="notification is-primary">
+                            <p class="subtitle has-text-centered">
+                                Final Reports
+                            </p>
+                        </div>
+                        <br>
+                        <div class="columns is-multiline">
+                            <div class="column
+                     is-one-quarter-desktop">
+                                <div data-aos="zoom-in" class="card">
+                                    <p class="has-text-centered">Final Report - Team
+                                    </p>
+                                    <div class="card-image
+                           has-text-centered"><span style="font-size: 5rem;
+                           color:
+                           rgb(193, 94, 93);"><i class="fa
+                           fa-file-pdf" aria-hidden="true"></i></span></div>
+                                    <footer class="card-footer"><a
+                                            onclick="window.open('https://docs.google.com/document/d/1DNCTbTrjr9Cw6BhlFuUYhyR-fVol-GnN/edit?usp=share_link&ouid=101497122337476251127&rtpof=true&sd=true')"
+                                            rel="noopener
+                           noreferrer" href="#" style="width: 100%;"><button class="button
+                           is-fullwidth
+                           is-primary
+                           is-outlined"><span>View</span></button></a>
+                                    </footer>
+                                </div>
+                            </div>
+
+                            <div class="column
+                     is-one-quarter-desktop">
+                                <div data-aos="zoom-in" class="card">
+                                    <p class="has-text-centered">Final Presentation
+                                    </p>
+                                    <div class="card-image
+                           has-text-centered"><span style="font-size: 5rem;
+                           color:
+                           rgb(193, 94, 93);"><i class="fa
+                           fa-file-pdf" aria-hidden="true"></i></span></div>
+                                    <footer class="card-footer"><a
+                                            onclick="window.open('https://docs.google.com/presentation/d/14B6nRKJWWz2sJGPcKH58EzNivCF4oVXJ/edit?usp=share_link&ouid=101497122337476251127&rtpof=true&sd=true')"
+                                            rel="noopener
+                           noreferrer" href="#" style="width: 100%;"><button class="button
+                           is-fullwidth
+                           is-primary
+                           is-outlined"><span>View</span></button></a>
+                                    </footer>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="has-text-centered" style="margin-top: 100px;
+               margin-bottom: 100px;">
+                        <div class="notification is-primary">
+                            <p class="subtitle has-text-centered">
+                                Individual Thesis Reports
+                            </p>
+                        </div>
+                        <br>
+                        <div class="columns is-multiline">
+                            <div class="column
+                     is-one-quarter-desktop">
+                                <div data-aos="zoom-in" class="card">
+                                    <p class="has-text-centered">IT17115094
+                                    </p>
+                                    <div class="card-image
+                           has-text-centered"><span style="font-size: 5rem;
+                           color:
+                           rgb(193, 94, 93);"><i class="fa
+                           fa-file-pdf" aria-hidden="true"></i></span></div>
+                                    <footer class="card-footer"><a onclick="window.open('https://docs.google.com/document/d/1XVLmcVUOzwge0XBZS1gT-3SpauVf72SI/edit?usp=share_link&ouid=101497122337476251127&rtpof=true&sd=true')" rel="noopener
+                           noreferrer" href="#" style="width: 100%;"><button class="button
+                           is-fullwidth
+                           is-primary
+                           is-outlined"><span>View</span></button></a>
+                                    </footer>
+                                </div>
+                            </div>
+
+                            <div class="column
+                     is-one-quarter-desktop">
+                                <div data-aos="zoom-in" class="card">
+                                    <p class="has-text-centered">IT19038988
+                                    </p>
+                                    <div class="card-image
+                           has-text-centered"><span style="font-size: 5rem;
+                           color:
+                           rgb(193, 94, 93);"><i class="fa
+                           fa-file-pdf" aria-hidden="true"></i></span></div>
+                                    <footer class="card-footer"><a onclick="window.open('https://docs.google.com/document/d/1EIWC72CdkUxPi_QuAg7TefZuTa2h10XZ/edit?usp=share_link&ouid=101497122337476251127&rtpof=true&sd=true')" rel="noopener
+                           noreferrer" href="#" style="width: 100%;"><button class="button
+                           is-fullwidth
+                           is-primary
+                           is-outlined"><span>View</span></button></a>
+                                    </footer>
+                                </div>
+                            </div>
+
+                            <div class="column
+                     is-one-quarter-desktop">
+                                <div data-aos="zoom-in" class="card">
+                                    <p class="has-text-centered">IT19053424
+                                    </p>
+                                    <div class="card-image
+                           has-text-centered"><span style="font-size: 5rem;
+                           color:
+                           rgb(193, 94, 93);"><i class="fa
+                           fa-file-pdf" aria-hidden="true"></i></span></div>
+                                    <footer class="card-footer"><a onclick="window.open('https://docs.google.com/document/d/1QttmFxAFowCJ5VoCR0GLYFlXQy4lPTFD/edit?usp=share_link&ouid=101497122337476251127&rtpof=true&sd=true')" rel="noopener
+                           noreferrer" href="#" style="width: 100%;"><button class="button
+                           is-fullwidth
+                           is-primary
+                           is-outlined"><span>View</span></button></a>
+                                    </footer>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Tools -->
+            <section id="tools">
+                <div class="parallax-tool">
+                    <div class="parallax-container-tool" style="height: 100vh;">
+                        <div class="notification is-dark">
+                            <h1 class="subtitle has-text-white
+                     has-text-centered">Tools and Technologies Used</h1>
+                        </div>
+                        <div class="container center" style="height:
+                  70vh;">
+                            <div class="container">
+                                <div class="columns is-mobile
+                        is-multiline">
+                                    <div class="column
+                           notification-card
+                           is-one-fifth-desktop
+                           is-half-mobile">
+                                        <a href="https://flask.palletsprojects.com/" target="_blank">
+                                            <div data-aos="flip-up" data-aos-duration="1000" class="notification
+                                 is-link
+                                 has-text-centered">Python Flask API</div>
+                                        </a>
+                                    </div>
+                                    <div class="column
+                           notification-card
+                           is-one-fifth-desktop
+                           is-half-mobile">
+                                        <a href="https://developer.helpscout.com/mailbox-api/" target="_blank">
+                                            <div data-aos="flip-up" data-aos-duration="1000" class="notification
+                                 is-link
+                                 has-text-centered">MailBOX API</div>
+                                        </a>
+                                    </div>
+                                    <div class="column
+                           notification-card
+                           is-one-fifth-desktop
+                           is-half-mobile">
+                                        <a href="#" target="_blank">
+                                            <div data-aos="flip-up" data-aos-duration="1000" class="notification
+                                 is-link
+                                 has-text-centered">Payment Gateway API</div>
+                                        </a>
+                                    </div>
+                                    <div class="column
+                           notification-card
+                           is-one-fifth-desktop
+                           is-half-mobile">
+                                        <a href="#" target="_blank">
+                                            <div data-aos="flip-up" data-aos-duration="1000" class="notification
+                                 is-link
+                                 has-text-centered">ANM Modle</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="parallax-tool feature-background"></div>
+            </section>
+            
+            <!-- Team -->
+            <section id="team" class="team-background" style="max-height: 1500px;">
+                <br><br>
+                <h3 class="title has-text-centered has-text-white">Team</h3>
+                <div class="container">
+                    <br><br>
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-sm-6" style="margin-left: 25rem;">
+                                <div data-aos="flip-right" data-aos-duration="1000" class="card
+                         has-text-centered" style="height: 100%; width: 20rem;">
+                                    <div class="card-image">
+                                        <figure class="image is-4by3"><img src="images/peoples/supervisor.jpg" style="background-size: cover;"
+                                                alt="Placeholder image">
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <h1 class="has-text-centered
+                               is-4"><b>Mr. Amila Nuwan Senarathne</b>
+                                        </h1>
+                                        <p class="has-text-centered
+                               is-4">Supervisor</p>
+                                        <br>
+                                        <div class="buttons" style="width: 100%;justify-content: center;">
+                                            <a href="https://www.linkedin.com/in/amila-nuwan-senarathne-462b5a30/"
+                                                target="_blank">
+                                                <button class="button">
+                                                    <span class="icon"><i class="fab fa-linkedin"
+                                                            aria-hidden="true"></i></span>
+                                                </button>
+                                            </a>
+
+                                            <a href="mailto:amila.n@sliit.lk" target="_blank"><button
+                                                    class="button"><span class="icon"><i class="fas
+                              fa-envelope" aria-hidden="true"></i></span></button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-sm-6" style="margin-left: 25rem;">
+                                <div data-aos="flip-right" data-aos-duration="1000" class="card
+                         has-text-centered" style="height: 100%; width: 20rem;">
+                                    <div class="card-image">
+                                        <figure class="image is-4by3"><img src="images/peoples/co-supervisor.jpg" style="background-size: cover;"
+                                                alt="Placeholder image"></figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <h1 class="has-text-centered
+                               is-4"><b>Mr. Djarshana Kasthurirathne</b>
+                                        </h1>
+                                        <p class="has-text-centered
+                               is-4">Co-Supervisor
+                                        </p>
+                                        <br>
+                                        <div class="buttons" style="width: 100%;
+                               justify-content: center;"><a
+                                                href=https://www.linkedin.com/in/dharshana-kasthurirathna-a4a3275/"
+                                                target="_blank"><button class="button"><span class="icon"><i class="fab
+                               fa-linkedin" aria-hidden="true"></i></span></button></a>
+                                            <a href="mailto:dharshana.k@sliit.lk" target="_blank"><button
+                                                    class="button"><span class="icon"><i class="fas
+                                fa-envelope" aria-hidden="true"></i></span></button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns">
+                            <div class="column mt-5 ms-5" style="margin-left: 20px;">
+                                <div data-aos="flip-right" data-aos-duration="1000" class="card
+                             has-text-centered" style="height: 100%; width: 15rem;">
+                                    <div class="card-image">
+                                        <figure class="image is-4by3"><img src="images/peoples/gl.jpeg" style="background-size: cover;"
+                                            alt="Placeholder image"></figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <h1 class="has-text-centered
+                                   is-4"><b>Pasindu Dissanayake</b>
+                                        </h1>
+                                        <p class="has-text-centered
+                                   is-4">Team Leader 
+                                        </p>
+                                        <br>
+                                        <div class="buttons" style="width: 100%;
+                                   justify-content: center;"><a
+                                                href="https://www.linkedin.com/in/pasindu-sithumina-5041bb1b9/"
+                                                target="_blank"><button class="button"><span class="icon"><i class="fab
+                                   fa-linkedin" aria-hidden="true"></i></span></button></a>
+                                            <a href="mailto:pasindudms@gmail.com" target="_blank"><button
+                                                    class="button"><span class="icon"><i class="fas
+                                    fa-envelope" aria-hidden="true"></i></span></button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column mt-5">
+                                <div data-aos="flip-right" data-aos-duration="1000" class="card
+                             has-text-centered" style="height: 100%; width: 15rem;">
+                                    <div class="card-image">
+                                        <figure class="image is-4by3"><img src="images/peoples/m2.jpeg" style="background-size: cover;"
+                                                alt="Placeholder image"></figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <h1 class="has-text-centered
+                                   is-4"><b>Ganeesha Gunathilaka</b>
+                                        </h1>
+                                        <p class="has-text-centered
+                                   is-4">Member 2
+                                        </p>
+                                        <br>
+                                        <div class="buttons" style="width: 100%;
+                                   justify-content: center;"><a
+                                                href="https://www.linkedin.com/in/ganeesha-gunathilaka-8ba0ba247"
+                                                target="_blank"><button class="button"><span class="icon"><i class="fab
+                                   fa-linkedin" aria-hidden="true"></i></span></button></a>
+                                            <a href="mailto:ggunathilaka98@gmail.com" target="_blank"><button
+                                                    class="button"><span class="icon"><i class="fas
+                                    fa-envelope" aria-hidden="true"></i></span></button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column mt-5">
+                                <div data-aos="flip-right" data-aos-duration="1000" class="card
+                             has-text-centered" style="height: 100%; width: 15rem;">
+                                    <div class="card-image">
+                                        <figure class="image is-4by3"><img src="images/peoples/m3.jpeg"
+                                                alt="Placeholder image"></figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <h1 class="has-text-centered
+                                   is-4"><b>Rumesh Herath</b>
+                                        </h1>
+                                        <p class="has-text-centered
+                                   is-4">Member 3
+                                        </p>
+                                        <br>
+                                        <div class="buttons" style="width: 100%;
+                                   justify-content: center;"><a
+                                                href=" https://www.linkedin.com/in/rumesh-herath-514ba6247/"
+                                                target="_blank"><button class="button"><span class="icon"><i class="fab
+                                   fa-linkedin" aria-hidden="true"></i></span></button></a>
+                                            <a href="mailto:rumeshherath5@gmail.com" target="_blank"><button
+                                                    class="button"><span class="icon"><i class="fas
+                                    fa-envelope" aria-hidden="true"></i></span></button></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Contact US -->
+        </div>
+    </section>
+</body>
+
+</html>
